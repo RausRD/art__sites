@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Art Sites</title>
+</head>
+<body>
+<main class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__image">
+            <img src="img/nazvanie__kompanii_samaya_klevaya_kompaniya_15.png" alt="name_company">
+          </div>
+          <div class="header__text">
+            <div class="header__number">+7(499) 777-77-77 <br> +7(499) 777-77-77</div>
+            <div class="header__feedack">  
+              <a href="#popup" class="feedback">Обратная связь</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="navigation__nav" id="nav__top">
+      <div class="container">
+        
+          <a href="#">Главная</a>
+          <a href="#">Каталог</a>
+          <a href="#">Доставка и оплата</a>
+          <a href="#">Прайслист</a>
+          <a href="#">Контакты</a>
+          <a href="#" id="menu" class="icon">&#9776;</a>
+      </div>
+    </section>
+    <sectoin class="slider">
+      <div class="slide-container active">
+      <div class="slide">
+        <img src="img/slayd_1_254.png" alt="">
+      </div>
+      </div>
+      <div class="slide-container">
+        <div class="slide">
+          <img src="img/slayd_2_188.png" alt="">
+        </div>
+      </div>
+      <div id="next" onclick="next()"> > </div>
+      <div id="prev" onclick="prev()"> < </div>
+    </sectoin>
+    <section class="content-block">
+      <div class="container">
+        <div class="content__info">
+          <a href="#">Главная</a>
+          <a href="#">Каталог</a>
+          <a href="#">Бытовая техника</a>
+        </div>
+        <div class="catalog__container">
+        <div class="content__text">
+          
+          <div class="content__title">Автомобили</div>
+          <div class="content__list">
+          <ul>
+            <li class="tehnic">Бытовая техника</li>
+            <ul type="disc">
+              <li>Микроволновки</li>
+              <li>Холодильники</li>
+              <li>Посудомоечные машины</li>
+              <li>Чайники</li>
+            </ul>
+          </ul>
+          <p>Мобильная техника</p>
+          <p>Компьютеры</p>
+          <p>Одежда</p>
+          <p>Недвижимость</p>
+          </div>
+          <div class="content__icon">
+            <img src="img/price list.png" alt="price-list">
+          </div>
+        </div>
+       <div class="catalog__price">
+        <div class="content__catalog">
+            <img src="img/layers (1).png" alt="catalog">
+            <img src="img/layers (1).png" alt="catalog">
+            <img src="img/layers (1).png" alt="catalog">
+            <img src="img/layers (1).png" alt="catalog">
+            <img src="img/layers (1).png" alt="catalog">
+            <p class="catalog__string">1 2 <span>3</span> 4 5 6 7</p>
+          </div>
+          <div class="company__info">
+            <p class="catalog__info">Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души.</p>
+            <p class="catalog__infoo">Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.</p>
+          </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__left">
+            <p>© 2012–2013 ЗАО «Компания» </p>
+            <p>
+              <a href="mailto:info@name.ru">info@name.ru</a>
+            </p>
+          </div>
+          <div class="footer__middle">
+            <ul class="footer__list">
+              <li class="footer__link">
+                <a href="#">Главная</a>
+              </li>
+              <li class="footer__link">
+                <a href="#">Каталог</a>
+              </li>
+              <li class="footer__link">
+                <a href="#">Оплата и доставка</a>
+              </li>
+              <li class="footer__link">
+                <a href="#">Прайс лист</a>
+              </li>
+              <li class="footer__link">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <div class="footer__text">
+              <a href="#">Разработка сайта</a> 
+              <span>— компания «Art-Sites»</span>
+          </div>
+          </div> 
+        </div>
+      </div>
+    </footer>
+    <div id="popup" class="popup">
+      
+    <div class="popup__body">
+      
+    <form action="#0"  class="popup__content">
+      <div class="form__title">
+        Обратная связь
+      </div>
+      <p>Ваше имя*<br><input required type="text" id="name" name="name" placeholder=" "></p>
+      <div class="span">
+        
+      </div>
+      <p>Телефон*<br><input required type="phone" id="name" name="phone" placeholder=" "></p>
+      <div class="span">
+        
+      </div>
+      <p>Email* <br><input required type="email" name="name" id="name" placeholder=" "></p>
+      <div class="span">
+        
+      </div>
+      <p>Сообщение<br><textarea name="" id="" cols="30" rows="10"></textarea></p>
+      <a href="#" class="popup__close">X</a>
+      <button class="btn__form">Отправить</button>
+    </form>
+  </div>
+  </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
